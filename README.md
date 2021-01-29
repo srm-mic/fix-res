@@ -76,4 +76,4 @@ Base Model
 
 On fine tuning
 
-![fine tuned](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/with%20aug%20fine%20tuning%20half.png)
+![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/all%20aug%20fine%20tune.jpeg)
