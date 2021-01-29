@@ -72,7 +72,7 @@ On fine tuning
 
 Base Model
 
-![base](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/with%20aug%20base%20model.png)
+![base](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/all%20augmentations%20base.png)
 
 On fine tuning
 
