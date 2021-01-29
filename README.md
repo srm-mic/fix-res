@@ -8,6 +8,7 @@ We tried it on two models:
 ## Binary Classifier
 
 Dataset:["https://www.kaggle.com/techsash/waste-classification-data"](https://www.kaggle.com/techsash/waste-classification-data)
+
 The model is used for classifiying image of waste into either Recyclable or Organic
 
 ### Results:
