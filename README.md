@@ -77,3 +77,8 @@ Base Model
 On fine tuning
 
 ![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/all%20aug%20fine%20tune.jpeg)
+
+## Related Work -- Fixing the train-test resolution discrepancy by Image Compression using SVD:
+
+We have found that on compressing the images, the validation and test accuracy improves.
+
