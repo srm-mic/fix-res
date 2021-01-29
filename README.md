@@ -16,11 +16,11 @@ The model is used for classifiying image of waste into either Recyclable or Orga
 
 <img src="https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/table2.png" height="750"/>
 
-Original Model
+**Original Model**
 
 ![original](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/original.png)
 
-Without augmentation:
+**Without augmentation:**
 
 Base Model
 
@@ -29,3 +29,13 @@ Base Model
 On fine tuning
 
 ![fine tuned](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/no%20aug%20fine%20tuning%20same.png)
+
+**With augmentation:**
+
+Base Model
+
+![base](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/with%20aug%20base%20model.png)
+
+On fine tuning
+
+![fine tuned](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/with%20aug%20fine%20tuning%20half.png)
