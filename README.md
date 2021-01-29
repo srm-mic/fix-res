@@ -7,7 +7,7 @@ We tried it on two models:
 
 ## Binary Classifier
 
-Dataset:["https://www.kaggle.com/techsash/waste-classification-data"](https://www.kaggle.com/techsash/waste-classification-data)
+Dataset : ["https://www.kaggle.com/techsash/waste-classification-data"](https://www.kaggle.com/techsash/waste-classification-data)
 
 The model is used for classifiying image of waste into either Recyclable or Organic
 
@@ -39,3 +39,15 @@ Base Model
 On fine tuning
 
 ![fine tuned](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/with%20aug%20fine%20tuning%20half.png)
+
+## Multiclass Classification
+
+Dataset : ["https://www.kaggle.com/asdasdasasdas/garbage-classification"](https://www.kaggle.com/asdasdasasdas/garbage-classification)
+
+The Garbage Classification Dataset contains 6 classifications:
+- cardboard (393)
+- glass (491)
+- metal (400)
+- paper(584)
+- plastic (472)
+- trash (127)
