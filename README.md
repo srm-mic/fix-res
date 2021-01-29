@@ -62,7 +62,7 @@ The Garbage Classification Dataset contains 6 classifications:
 
 Base Model
 
-![base](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/no%20aug%20base%20model.png)
+![base](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/only%20crops.png)
 
 On fine tuning
 
