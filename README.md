@@ -1,4 +1,4 @@
-# fixing-train-test-resolution-discrepancy-implementation
+# Fixing the Train-Test Resolution Discrepancy implementation
 This is an implementation of the research paper ["fixing the train test resolution discrepancy"](https://arxiv.org/pdf/1906.06423.pdf) for MIC rescon
 
 We tried it on two models:
