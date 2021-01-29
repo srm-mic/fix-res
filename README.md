@@ -82,3 +82,6 @@ On fine tuning
 
 We have found that on compressing the images, the validation and test accuracy improves.
 
+### Table:
+
+<img src = "https://github.com/GAmuzak/fix-res/blob/main/ImageCompression/table/comparisontable.png">
