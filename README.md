@@ -11,4 +11,6 @@ Dataset:["https://www.kaggle.com/techsash/waste-classification-data"](https://ww
 The model is used for classifiying image of waste into either Recyclable or Organic
 
 ### Results:
-![Table](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/table.png)
+<img src="https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/table.png" height="800"/>
+
+<img src="https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/table2.png" height="800"/>
