@@ -1,5 +1,11 @@
 # Fixing the Train-Test Resolution Discrepancy implementation
-This is an implementation of the research paper ["fixing the train test resolution discrepancy"](https://arxiv.org/pdf/1906.06423.pdf) for MIC rescon
+This is an implementation of the research paper ["fixing the train test resolution discrepancy"](https://arxiv.org/pdf/1906.06423.pdf) for MIC rescon.
+
+## Introduction
+
+The paper Fixing the Train-Test Resolution Discrepancy talks about how reducing the train resolution and increasing the test resolution has an improvement on a given cnn model’s performance for classification purposes. However, there is a direct clash with the way the model interprets images after training on cropped images, and so needs minor and computationally inexpensive finetuning at the end of the convolutional blocks to adapt to that change during higher test resolutions to avoid a domain shift. 
+
+<hr>
 
 We tried it on two models:
 1. A CNN Binary Classifier
@@ -11,7 +17,7 @@ We tried it on two models:
 
 Dataset : ["https://www.kaggle.com/techsash/waste-classification-data"](https://www.kaggle.com/techsash/waste-classification-data)
 
-The model is used for classifiying image of waste into either Recyclable or Organic
+The model is used for classifying image of waste into either Recyclable or Organic
 
 ### Results:
 <img src="https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/table.png" height="800"/>
