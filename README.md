@@ -56,27 +56,27 @@ The Garbage Classification Dataset contains 6 classifications:
 
 **Original Model**
 
-![original](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/base.png)
+![original](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/original.png)
 
 **Without augmentation:**
 
 Base Model
 
-![base](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/only%20crops.png)
+![base](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/only%20crops_base.png)
 
 On fine tuning
 
-![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/crop%20fine%20tune%20.jpeg)
+![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/crop_finetune.png)
 
 **With augmentation:**
 
 Base Model
 
-![base](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/all%20augmentations%20base.png)
+![base](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/aug_base.png)
 
 On fine tuning
 
-![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/all%20aug%20fine%20tune.jpeg)
+![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/aug_fine.png)
 
 ## Related Work -- Fixing the train-test resolution discrepancy by Image Compression using SVD:
 
