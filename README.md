@@ -5,6 +5,8 @@ We tried it on two models:
 1. A CNN Binary Classifier
 2. A CNN Multiclass Classifier
 
+<hr>
+
 ## Binary Classifier
 
 Dataset : ["https://www.kaggle.com/techsash/waste-classification-data"](https://www.kaggle.com/techsash/waste-classification-data)
@@ -40,7 +42,9 @@ On fine tuning
 
 ![fine tuned](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/with%20aug%20fine%20tuning%20half.png)
 
-## Multiclass Classification
+<hr>
+
+## Multiclass Classifier
 
 Dataset : ["https://www.kaggle.com/asdasdasasdas/garbage-classification"](https://www.kaggle.com/asdasdasasdas/garbage-classification)
 
@@ -52,7 +56,7 @@ The Garbage Classification Dataset contains 6 classifications:
 - plastic (472)
 - trash (127)
 
-### Results
+### Results:
 
 **Original Model**
 
@@ -78,6 +82,8 @@ On fine tuning
 
 ![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/aug_fine.png)
 
+<hr>
+
 ## Related Work -- Fixing the train-test resolution discrepancy by Image Compression using SVD:
 
 We have found that on compressing the images, the validation and test accuracy improves.
@@ -85,3 +91,13 @@ We have found that on compressing the images, the validation and test accuracy i
 ### Table:
 
 <img src = "https://github.com/GAmuzak/fix-res/blob/main/ImageCompression/table/comparisontable.png">
+
+### Results:
+
+Original Dataset
+
+![original](https://github.com/GAmuzak/fix-res/blob/main/ImageCompression/graphs/original.jpeg)
+
+Compressed Images
+
+![compressed](https://github.com/GAmuzak/fix-res/blob/main/ImageCompression/graphs/finetune.jpeg)
