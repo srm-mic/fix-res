@@ -92,7 +92,7 @@ On fine tuning
 
 ## Related Work -- Fixing the train-test resolution discrepancy by Image Compression using SVD:
 
-We have found that on compressing the images, the validation and test accuracy improves.
+The idea here was to see if compression of the images had a similar effect or not to cropping the image as per what the paper suggested. We have found that on compressing the images, the validation and test accuracy improves.
 
 ### Table:
 
