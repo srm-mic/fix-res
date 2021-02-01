@@ -7,6 +7,19 @@ The paper Fixing the Train-Test Resolution Discrepancy talks about how reducing 
 
 <hr>
 
+## Explanation and Intuition for the Math
+
+The paper first makes the argument that for best results, the distribution for train and test should be the same. However most accuracy improvement techniques focus changes in only one or the other, resulting in a domain shift. With different regions of concentration or RoCs for train and test time, the distribution of data is skewed. This is explained by the simple physics problem, which is the apparent size of objects. When performing classification, the model must learn from the data. But if standard preprocessing techniques are followed, then the train time apparent object size is much larger than the test, thus causing a distribution shift in the data.
+
+<img src = "https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/example.png">
+
+The solution is to either reduce the resolution of the train image, or increase the resolution of the test image, or both in moderate amounts, so as to make use of the individual gains made in each domain for improving accuracies therein.
+
+The math shows the relation between the apparent sizes of the train size and the test size in section 3.1, with the conclusion that the coefficient of proportionality is alpha, where alpha is supposed to be as close to one as possible, but is normally around 0.8 for popular architectures such as AlexNet.
+
+The essence of the paper is to fix this, and to make a minor finetuning change for the minor change in the network’s understanding of the differing overall resolutions in order to maintain the performance of the network.
+
+
 We tried it on two models:
 1. A CNN Binary Classifier
 2. A CNN Multiclass Classifier
