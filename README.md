@@ -27,7 +27,7 @@ Pillow==8.1.0
 
 The paper first makes the argument that for best results, the distribution for train and test should be the same. However most accuracy improvement techniques focus changes in only one or the other, resulting in a domain shift. With different regions of concentration or RoCs for train and test time, the distribution of data is skewed. This is explained by the simple physics problem, which is the apparent size of objects. When performing classification, the model must learn from the data. But if standard preprocessing techniques are followed, then the train time apparent object size is much larger than the test, thus causing a distribution shift in the data.
 
-<img src = "https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/example.png">
+<img src = "https://github.com/GAmuzak/fix-res/blob/main/multiclass/graphs/example.png">
 
 The solution is to either reduce the resolution of the train image, or increase the resolution of the test image, or both in moderate amounts, so as to make use of the individual gains made in each domain for improving accuracies therein.
 
@@ -49,33 +49,33 @@ Dataset : ["https://www.kaggle.com/techsash/waste-classification-data"](https://
 The model is used for classifying image of waste into either Recyclable or Organic
 
 ### Results:
-<img src="https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/table.png" height="800"/>
+<img src="https://github.com/GAmuzak/fix-res/blob/main/binary_classification/results/table.png" height="800"/>
 
-<img src="https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/table2.png" height="750"/>
+<img src="https://github.com/GAmuzak/fix-res/blob/main/binary_classification/results/table2.png" height="750"/>
 
 **Original Model**
 
-![original](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/original.png)
+![original](https://github.com/GAmuzak/fix-res/blob/main/binary_classification/results/original.png)
 
 **Without augmentation:**
 
 Base Model
 
-![base](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/no%20aug%20base%20model.png)
+![base](https://github.com/GAmuzak/fix-res/blob/main/binary_classification/results/no%20aug%20base%20model.png)
 
 On fine tuning
 
-![fine tuned](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/no%20aug%20fine%20tuning%20same.png)
+![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/binary_classification/results/no%20aug%20fine%20tuning%20same.png)
 
 **With augmentation:**
 
 Base Model
 
-![base](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/with%20aug%20base%20model.png)
+![base](https://github.com/GAmuzak/fix-res/blob/main/binary_classification/results/with%20aug%20base%20model.png)
 
 On fine tuning
 
-![fine tuned](https://github.com/GAmuzak/fixing-train-test-resolution-discrepancy-implementation/blob/main/Binary%20Classification-%20FixRes/results/with%20aug%20fine%20tuning%20half.png)
+![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/binary_classification/results/with%20aug%20fine%20tuning%20half.png)
 
 <hr>
 
@@ -95,27 +95,27 @@ The Garbage Classification Dataset contains 6 classifications:
 
 **Original Model**
 
-![original](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/original.png)
+![original](https://github.com/GAmuzak/fix-res/blob/main/multiclass/graphs/original.png)
 
 **Without augmentation:**
 
 Base Model
 
-![base](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/only%20crops_base.png)
+![base](https://github.com/GAmuzak/fix-res/blob/main/multiclass/graphs/only%20crops_base.png)
 
 On fine tuning
 
-![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/crop_finetune.png)
+![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/multiclass/graphs/crop_finetune.png)
 
 **With augmentation:**
 
 Base Model
 
-![base](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/aug_base.png)
+![base](https://github.com/GAmuzak/fix-res/blob/main/multiclass/graphs/aug_base.png)
 
 On fine tuning
 
-![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/Multiclass%20FixRes/graphs/aug_fine.png)
+![fine tuned](https://github.com/GAmuzak/fix-res/blob/main/multiclass/graphs/aug_fine.png)
 
 <hr>
 
@@ -125,14 +125,14 @@ The idea here was to see if compression of the images had a similar effect or no
 
 ### Table:
 
-<img src = "https://github.com/GAmuzak/fix-res/blob/main/ImageCompression/table/comparisontable.png">
+<img src = "https://github.com/GAmuzak/fix-res/blob/main/image_compression/table/comparisontable.png">
 
 ### Results:
 
 Original Dataset
 
-![original](https://github.com/GAmuzak/fix-res/blob/main/ImageCompression/graphs/original.jpeg)
+![original](https://github.com/GAmuzak/fix-res/blob/main/image_compression/graphs/original.jpeg)
 
 Compressed Images
 
-![compressed](https://github.com/GAmuzak/fix-res/blob/main/ImageCompression/graphs/finetune.jpeg)
+![compressed](https://github.com/GAmuzak/fix-res/blob/main/image_compression/graphs/finetune.jpeg)
