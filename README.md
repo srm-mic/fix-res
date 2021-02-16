@@ -13,13 +13,13 @@ The experiments were conducted on a local machine running a NVidia GTX 1050Ti, a
 
 ## Requirements
 
-tensorflow==2.4.0
-opencv_python==4.5.1.48
-numpy==1.19.2
-matplotlib==3.3.2
-compress==0.0.3
-keras==2.4.3
-Pillow==8.1.0
+tensorflow==2.4.0  
+opencv_python==4.5.1.48  
+numpy==1.19.2  
+matplotlib==3.3.2  
+compress==0.0.3  
+keras==2.4.3  
+Pillow==8.1.0  
 
 <hr>
 
