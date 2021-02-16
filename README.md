@@ -5,6 +5,22 @@ This is an implementation of the research paper ["fixing the train test resoluti
 
 The paper Fixing the Train-Test Resolution Discrepancy talks about how reducing the train resolution and increasing the test resolution has an improvement on a given cnn model’s performance for classification purposes. However, there is a direct clash with the way the model interprets images after training on cropped images, and so needs minor and computationally inexpensive finetuning at the end of the convolutional blocks to adapt to that change during higher test resolutions to avoid a domain shift. 
 
+To experiment for yourself, run the notebooks in the binary classification and the multiclass classification directories. Use the compression script on the dataset (link provided below) for crossvalidating the results across both notebooks.
+
+The experiments were conducted on a local machine running a NVidia GTX 1050Ti, and validated over Google Colab running a NVIDIA Tesla K80
+
+<hr>
+
+## Requirements
+
+tensorflow==2.4.0
+opencv_python==4.5.1.48
+numpy==1.19.2
+matplotlib==3.3.2
+compress==0.0.3
+keras==2.4.3
+Pillow==8.1.0
+
 <hr>
 
 ## Explanation and Intuition for the Math
